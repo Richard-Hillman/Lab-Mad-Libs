@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
 
 <!-- head================================================================= -->
 
-<body>
+<body id="main">
 
     <header>
         <div class="gutter-right logo">
@@ -24,7 +24,7 @@
 
 <!-- header=========================================================================== -->
 
-    <main>
+    <main >
 
             
             <img class="main-logo" src="https://vgboxart.com/resources/render/13695_pokeball-prev.png"/>
@@ -32,7 +32,7 @@
             
             <h2>Pokemon Theme song MADLIB </h2>
                   
-            <section class="input-section" id="input-section">
+            <section class="inputSection" id="input-section">
 
                 <br>
                 <h3>Fill out the Below</h3>  
@@ -72,39 +72,45 @@
                 
                 <h3> adjective </h3> <input type="text" id="input-nine">
     
-            </section>
+            </section> 
+            <div>
+                <button id="button" type="submit"> Submit! </button>
+            </div>
+        
 
 <!-- song -->
 
-            <p class="madlib" id="madlib">
-
+            <section class="madlib" class="fontFamily" id="mad-lib">
+            <p >
                 <span id="result-1">I</span> want to be the very best,<br>
                 Like no <span id="result-2">one</span> ever was.<br>
                 To catch them is my real <span id="result-3">test</span>,<br>
                 To <span id="result-4">train</span> them is my cause!<br>
-                (I will <span id="result-5">travel</span> across the land,<br>
+                I will <span id="result-5">travel</span> across the land,<br>
                 <span id="result-6">Searching</span> far and wide.<br>
                 Each <span id="result-7"></span> to understand<br>
                 The <span id="result-8">power</span> that's <span id="result-9">inside</span>!<br>
-           
+                <button onclick="window.location.href='./index.html'"> Try Again </button>
+
+                <!-- <button id="done"  href="http://127.0.0.1:5501/index.html" >Done</button> -->
             </p>
+            </section>
             
             
  <!-- button======================================= -->
             
             
-            <div>
-                <button id="button"> Submit! </button>
-            </div>
-        
+   <!--something to push with-->        
         
     </main>
 
 <!-- footer========================================================================= -->
 
-    <footer>
+    <!-- <footer>
         <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
-    </footer>
+    </footer> -->
+
+<!--This comment was only added to practive a Pull Request and Merge. Feel free to delete it now.-->
 
     <script type="module" src="app.js"></script>
 
